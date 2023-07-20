@@ -15,7 +15,6 @@ import img2 from '../../imgs/swiper/WhatsApp Image 2023-07-19 at 2.46.28 PM.jpeg
 import img3 from '../../imgs/swiper/WhatsApp Image 2023-07-19 at 2.47.44 PM.jpeg'
 
 function Header() {
-    const swiper = useSwiper()
     return (
         <header>
             <Swiper
