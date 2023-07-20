@@ -8,7 +8,7 @@ function Main() {
                     <h2>Burgers</h2>
                     <p>hamburger <span>3$</span></p>
                     <p>chicken burger <span>3$</span></p>
-                    <p>BBB (our special burger) <span>3$</span></p>
+                    <p>BBB (our special burger) <span>5$</span></p>
                 </div>
 
                 <div className="section">
