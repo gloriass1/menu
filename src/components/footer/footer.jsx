@@ -16,7 +16,7 @@ function Footer() {
 
             <div className="">
                 <h4>Contact Us On: </h4>
-                <p>76 334 067</p>
+                <p>03 972 825</p>
             </div>
             
             <div className="">
