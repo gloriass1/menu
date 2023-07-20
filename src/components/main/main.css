@@ -1,0 +1,62 @@
+main nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+}
+
+main nav > * {
+    background-color: #4a5d8b;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main nav > *:hover {
+    cursor: pointer;
+}
+
+main .sections {
+    margin: 7rem auto;
+    width: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+
+main .sections div {
+    width: 300px;
+}
+
+.section h2 {
+    color: #416999;
+    font-size: 3rem;
+}
+
+.section {
+    text-transform: capitalize;
+}
+
+.section p {
+    margin-left: .1rem;
+    line-height: 2rem;
+}
+
+@media (max-width: 425px) {
+    main nav > * {
+        width: 150px;
+        height: 100px;
+    
+        font-size: 1.5rem;
+    }
+    main .sections {
+        margin: auto;
+    }
+}

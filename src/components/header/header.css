@@ -1,0 +1,38 @@
+
+header {
+    width: 100vw;
+    height: 350px;
+    position: relative;
+}
+
+.swiper {
+    height: 100%;
+}
+
+
+header img {
+    max-height: 100%; 
+    width: 100vw;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -75px;
+    z-index: 1;
+}
+
+@media (max-width: 425px) {
+    .logo {
+        bottom: 10px;
+    }
+}
+@media (min-width: 1024px) {
+    header {
+        height: 600px;
+    }
+}
