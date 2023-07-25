@@ -6,21 +6,21 @@ function Main() {
             <div className="sections">
                 <div className="section">
                     <h2>Burgers</h2>
-                    <p>hamburger <span>3$</span></p>
-                    <p>chicken burger <span>3$</span></p>
-                    <p>BBB (our special burger) <span>5$</span></p>
+                    <p>hamburger <span>4$</span></p>
+                    <p>chicken burger <span>4$</span></p>
+                    <p>BBB (our special burger) <span>6$</span></p>
                 </div>
 
                 <div className="section">
                     <h2>pizza</h2>
-                    <p>lebanese pizza <span>5$</span></p>
-                    <p>pepperoni pizza <span>6$</span></p>
-                    <p>chicken barbecue pizza <span>7$</span></p>
+                    <p>lebanese pizza <span>6$</span></p>
+                    <p>pepperoni pizza <span>7$</span></p>
+                    <p>chicken barbecue pizza <span>8$</span></p>
                 </div>
 
                 <div className="section">
                     <h2>sandwiches</h2>
-                    <p>Tawouk <span>3$</span></p>
+                    <p>Tawouk <span>4$</span></p>
                     <p>fries <span>1.5$</span></p>
                 </div>
 
